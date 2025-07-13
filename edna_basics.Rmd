@@ -18,26 +18,35 @@ knitr::opts_chunk$set(echo = TRUE, warning = FALSE,
 
 <br>
 
-# Background 
+# Welcome & Workshop Overview 
 
-Analysis and reporting are a large and important part of the data science process. Communicating what you did and how you did it is critical to a reproducible workflow.
+Words of value to let folks know what we are up to
+1. eDNA Basics
+- We will cover the following things that will be a quick line so folks can get the gist
+2. Experimental Design: Preparation & Sampling
+- We will take a dive into how to set ourselves up for success
+3. Sample Processing & Analysis
+- We will enjoy a high level overview of the decisions, stages, and analysis options based on the decisions we made in part 1
 
 ***
 
-# Example analysis
+# Intro to me and my background
 
-Here is an example of an exploratory analysis based on a re-examination of some count data on seastars obtained before and after a wasting syndrome. The original analysis was conducted and published by [Schultz (2016)](https://peerj.com/articles/1980/). Here is the abstract from their paper.
+I have done soem cool things and I will have a neat picture here to show what i mean!
+```{r, echo = FALSE, fig.align = "center", out.width = "33%"}
+knitr::include_graphics("images/me_bigw.JPG")
+```
 
-> Echinoderm population collapses, driven by disease outbreaks and climatic events, may be important drivers of population dynamics, ecological shifts and biodiversity. The northeast Pacific recently experienced a mass mortality of sea stars. In Howe Sound, British Columbia, the sunflower star *Pycnopodia helianthoides*—a previously abundant predator of bottom-dwelling invertebrates—began to show signs of a wasting syndrome in early September 2013, and dense aggregations disappeared from many sites in a matter of weeks. Here, we assess changes in subtidal community composition by comparing the abundance of fish, invertebrates and macroalgae at 20 sites in Howe Sound before and after the 2013 sea star mortality to evaluate evidence for a trophic cascade. We observed changes in the abundance of several species after the sea star mortality, most notably a four-fold increase in the number of green sea urchins, *Strongylocentrotus droebachiensis*, and a significant decline in kelp cover, which are together consistent with a trophic cascade. Qualitative data on the abundance of sunflower stars and green urchins from a citizen science database show that the patterns of echinoderm abundance detected at our study sites reflected wider local trends. The trophic cascade evident at the scale of Howe Sound was observed at half of the study sites. It remains unclear whether the urchin response was triggered directly, via a reduction in urchin mortality, or indirectly, via a shift in urchin distribution into areas previously occupied by the predatory sea stars. Understanding the ecological implications of sudden and extreme population declines may further elucidate the role of echinoderms in temperate seas, and provide insight into the resilience of marine ecosystems to biological disturbances.
+> This is my figure caption because it looks cool with the little line next to it
 
-## Main results
+# Background
 
-Here is Figure 3 from Schultz et al. (2016), which shows the mean counts of organisms before and after the wasting event. They used a barplot with symmetrical errors bars based on a (in my opinion) flawed model for counts. That is, the error bars are symmetric around the means, which suggests that they might indeed observe negative counts.
+## What is eDNA?
+
+Cool as hell
 
 <br>
-```{r, echo = FALSE, fig.align = "center", out.width = "33%"}
-knitr::include_graphics("images/seastars.png")
-```
+
 <br>
 
 
