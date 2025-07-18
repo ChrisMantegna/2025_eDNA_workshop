@@ -13,7 +13,7 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE,
-                      fig.align = "center", out.width = '70%')
+                      fig.align = "center", out.width = '90%')
 ```
 
 <br>
